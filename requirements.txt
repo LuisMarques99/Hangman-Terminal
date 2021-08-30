@@ -1,0 +1,2 @@
+colorama==0.4.4
+Unidecode==1.2.0
