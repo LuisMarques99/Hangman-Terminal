@@ -1,4 +1,4 @@
-# :hocho: Hangman Terminal :hocho:
+# :hocho: Hangman :hocho:
 
 ## Contents
 
