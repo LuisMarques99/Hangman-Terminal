@@ -35,6 +35,7 @@ language_pack = {
         "word_reveal_message": "The word was",
         "valid_option_warning": "Enter a valid option.",
         "number_option_warning": "Just enter the number.",
+        "enter_a_single_letter_warning": "Enter a single letter.",
         "no_words_warning": "This game needs words to be played."
     },
     "pt": {
@@ -58,8 +59,9 @@ language_pack = {
         "winning_message": "Ganhaste!",
         "losing_message": "Ficaste sem vidas... Mais sorte para a próxima.",
         "word_reveal_message": "A palavra era",
-        "valid_option_warning": "Indtroduz uma opção válida.",
+        "valid_option_warning": "Introduz uma opção válida.",
         "number_option_warning": "Introduz um número.",
+        "enter_a_single_letter_warning": "Introduz apenas uma letra.",
         "no_words_warning": "Este jogo precisa de palavras para ser jogado."
     }
 }

@@ -55,17 +55,20 @@ def game(language: str = "en", word: str = None, lives: int = 5):
         print(f"{Fore.RED}{language_info.get('no_words_warning')}{Fore.RESET}")
     hidden_word = ["_" for _ in word]
     while lives > 0:
-        word_hit = False
+        letter_hit = False
         print(f"\n{' '.join(hidden_word)} ({len(hidden_word)} {language_info.get('letters')})")
-        letter = input(f"({lives} {language_info.get('remaining_guesses')}) {language_info.get('letter')}")
+        letter = input(f"({lives} {language_info.get('remaining_guesses')}) {language_info.get('letter')}").lower()
+        if len(letter) != 1 or not letter.isalpha():
+            print(f"{Fore.RED}{language_info.get('enter_a_single_letter_warning')}{Fore.RESET}")
+            continue
         for i in range(len(word)):
             if letter == unidecode(word[i]).lower():
                 hidden_word[i] = word[i]
-                word_hit = True
+                letter_hit = True
         if "".join(hidden_word) == word:
             print(f"\n'{word}'. {language_info.get('winning_message')}")
             break
-        if word_hit == False:
+        if letter_hit == False:
             lives -= 1
         if lives == 0:
             print(f"\n{language_info.get('losing_message')}.\n{language_info.get('word_reveal_message')} '{word}'.")
