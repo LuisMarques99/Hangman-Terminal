@@ -22,26 +22,27 @@ To install and use this game, you must follow the next steps:
 2. Create a **python virtual environment** in the **project root** to run the game with the **same packages**.
 
     ```sh
-    $> python -m venv venv 
+    python -m venv venv 
     ```
 
 3. Activate your virtual environment.
+
     **Windows Powershell:**
 
     ```sh
-    $> .\venv\bin\Activate.ps1
+    .\venv\bin\Activate.ps1
     ```
 
     **Unix Bash:**
 
     ```sh
-    $> source /venv/bin/activate
+    source /venv/bin/activate
     ```
 
 4. Install the dependencies described in the requirements file:
 
     ```sh
-    $> pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
 
 5. Run the game.
