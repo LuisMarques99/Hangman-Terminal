@@ -13,6 +13,39 @@
 
 Building a Hangman game in a terminal window
 
+## Installation
+
+To install and use this game, you must follow the next steps:
+
+1. Make sure you have **Python 3.9** installed.
+
+2. Create a **python virtual environment** in the **project root** to run the game with the **same packages**.
+
+    ```sh
+    $> python -m venv venv 
+    ```
+
+3. Activate your virtual environment.
+    **Windows Powershell:**
+
+    ```sh
+    $> .\venv\bin\Activate.ps1
+    ```
+
+    **Unix Bash:**
+
+    ```sh
+    $> source /venv/bin/activate
+    ```
+
+4. Install the dependencies described in the requirements file:
+
+    ```sh
+    $> pip install -r requirements.txt
+    ```
+
+5. Run the game.
+
 ## Built with
 
 ### Version Control
