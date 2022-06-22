@@ -36,7 +36,7 @@ To install and use this game, you must follow the next steps:
     **Unix Bash:**
 
     ```sh
-    source /venv/bin/activate
+    source ./venv/bin/activate
     ```
 
 4. Install the dependencies described in the requirements file:
